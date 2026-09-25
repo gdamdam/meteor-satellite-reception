@@ -97,7 +97,7 @@ a:focus-visible,.chart-scroll:focus-visible{outline:3px solid var(--link);outlin
 
 /* Enlarged decorative detail; the scientific gallery retains the full swaths. */
 .lead::before,.lead::after{content:"";position:absolute;inset:0;pointer-events:none;z-index:-1}
-.lead::before{left:28%;background:url("media/false-color-421-preview.jpg") center 46% / cover no-repeat}
+.lead::before{left:28%;background:url("media/visible-near-ir-221-preview.jpg") center 46% / cover no-repeat}
 .lead::after{background:linear-gradient(90deg,var(--paper) 0%,rgba(250,249,245,.98) 34%,rgba(250,249,245,.88) 52%,rgba(250,249,245,.28) 75%,rgba(250,249,245,.04) 100%),linear-gradient(180deg,var(--paper),transparent 15%,transparent 84%,var(--paper))}
 @media(max-width:759px){.lead{min-height:500px;padding:48px 0}.lead-copy{max-width:100%}.lead h1{font-size:2.4rem}.lead::before{left:0;background-position:center 46%}.lead::after{background:linear-gradient(90deg,rgba(250,249,245,.98),rgba(250,249,245,.83)),linear-gradient(180deg,var(--paper),transparent 20%,transparent 80%,var(--paper))}}
 
