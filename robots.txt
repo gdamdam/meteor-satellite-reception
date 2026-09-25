@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gdamdam.github.io/meteor-satellite-reception/sitemap.xml
