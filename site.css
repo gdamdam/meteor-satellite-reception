@@ -17,3 +17,5 @@
 .site-nav{display:flex;align-items:center;justify-content:space-between;gap:14px}
 .site-nav .edition{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:0 7px}
 @media(max-width:760px){.observation-cards{grid-template-columns:1fr;max-width:520px}.landing-intro{padding-top:55px}.observation-card img{height:260px}.site-nav{flex-wrap:wrap;padding-block:12px}.site-nav .edition{justify-content:flex-start}}
+
+@media(max-width:640px){.landing .mast .frame{flex-wrap:wrap;padding-block:10px}.landing .mast .edition{text-align:left}}
