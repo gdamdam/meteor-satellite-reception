@@ -1,0 +1,19 @@
+.landing-intro{padding:76px 0 54px;max-width:740px}
+.landing-intro h1{font-size:clamp(2.35rem,5.4vw,4.1rem);max-width:none}
+.landing-intro .deck{margin-bottom:18px}
+.landing-intro>p:last-child{max-width:670px;color:#555a53}
+.observation-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;padding:16px 0 75px}
+.observation-card{min-width:0;border:1px solid var(--line);background:#fffefa}
+.observation-card>a{display:block;height:100%;color:inherit;text-decoration:none}
+.observation-card>a:hover .card-link,.observation-card>a:focus-visible .card-link{text-decoration:underline}
+.observation-card img{display:block;width:100%;height:330px;object-fit:cover;object-position:center 28%;background:#e8e9e3}
+.observation-card:nth-child(2) img{object-position:center 33%}
+.card-copy{padding:18px 19px 24px}
+.card-date{margin-bottom:10px;font:12px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--muted)}
+.card-copy h2{font-size:1.6rem;margin-bottom:12px}
+.card-copy>p:not(.card-date){font-size:.96rem;line-height:1.55;margin-bottom:18px}
+.card-link{font:600 13px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--link)}
+.landing-foot{border-top:1px solid var(--line);padding:24px 0 55px;font:13px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--muted)}
+.site-nav{display:flex;align-items:center;justify-content:space-between;gap:14px}
+.site-nav .edition{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:0 7px}
+@media(max-width:760px){.observation-cards{grid-template-columns:1fr;max-width:520px}.landing-intro{padding-top:55px}.observation-card img{height:260px}.site-nav{flex-wrap:wrap;padding-block:12px}.site-nav .edition{justify-content:flex-start}}

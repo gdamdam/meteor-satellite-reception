@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="t d">
+<title id="t">Measured plan of the Meteor dipole</title><desc id="d">Top view. Two 53.4 centimetre rods meet at a 120 degree angle. The V opens toward north.</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="4.5" refY="4.5" orient="auto-start-reverse"><path d="M0 0 L9 4.5 L0 9Z" fill="#ba5438"/></marker><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#dce3dc" stroke-width="1"/></pattern></defs>
+<rect width="1200" height="800" fill="#f8f7ef"/><rect x="32" y="32" width="1136" height="736" fill="url(#grid)" stroke="#24484c" stroke-width="2"/>
+<text x="82" y="94" font-family="Georgia,serif" font-size="45" fill="#203b3c">The receiving dipole</text><text x="83" y="131" font-family="Arial,sans-serif" font-size="17" letter-spacing="2" fill="#ba5438">TOP VIEW · NOT TO SCALE</text>
+<line x1="604" y1="201" x2="604" y2="638" stroke="#799b94" stroke-width="2" stroke-dasharray="9 9"/>
+<text x="585" y="191" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#24484c">N</text><text x="586" y="674" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#24484c">S</text>
+<path d="M604 531 L244 323 M604 531 L964 323" stroke="#23494d" stroke-width="15" stroke-linecap="round"/><circle cx="604" cy="531" r="19" fill="#f8f7ef" stroke="#ba5438" stroke-width="6"/>
+<path d="M520 483 A97 97 0 0 1 688 483" fill="none" stroke="#ba5438" stroke-width="3"/><text x="574" y="432" font-family="Arial,sans-serif" font-size="29" font-weight="700" fill="#ba5438">120°</text>
+<line x1="266" y1="280" x2="579" y2="461" stroke="#ba5438" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/><rect x="292" y="343" width="181" height="43" rx="4" fill="#f8f7ef"/><text x="305" y="374" font-family="Arial,sans-serif" font-size="26" fill="#8f3d2a">53.4 cm</text>
+<line x1="622" y1="463" x2="942" y2="278" stroke="#ba5438" stroke-width="2" marker-start="url(#arrow)" marker-end="url(#arrow)"/><rect x="739" y="346" width="180" height="43" rx="4" fill="#f8f7ef"/><text x="752" y="377" font-family="Arial,sans-serif" font-size="26" fill="#8f3d2a">53.4 cm</text>
+<path d="M616 549 C644 583 697 588 729 606" fill="none" stroke="#6b807f" stroke-width="4"/><text x="739" y="613" font-family="Arial,sans-serif" font-size="21" fill="#354747">Feedpoint + coax down to receiver</text>
+<text x="84" y="714" font-family="Arial,sans-serif" font-size="19" fill="#526865">Two equal arms form the measured V; its opening faces north.</text>
+</svg>

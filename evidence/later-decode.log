@@ -1,0 +1,97 @@
+[03:01:00 - 24/09/2026] (I) Starting processing pipeline meteor_m2-x_lrpt...
+[03:01:00 - 24/09/2026] (D) Input file (baseband) : /path/to/SatDump/2026-09-23_22-41-11_2000000SPS_137500000Hz.cs16
+[03:01:00 - 24/09/2026] (D) Output file : /path/to/SatDump/OUT
+[03:01:00 - 24/09/2026] (D) Starting meteor_m2-x_lrpt
+[03:01:00 - 24/09/2026] (I) Checking the 2 first modules...
+[03:01:00 - 24/09/2026] (D) Parameters :
+[03:01:00 - 24/09/2026] (D)    - baseband_format : "cs16"
+[03:01:00 - 24/09/2026] (D)    - constellation : "oqpsk"
+[03:01:00 - 24/09/2026] (D)    - dc_block : true
+[03:01:00 - 24/09/2026] (D)    - fill_missing : false
+[03:01:00 - 24/09/2026] (D)    - freq_shift : -400000
+[03:01:00 - 24/09/2026] (D)    - iq_swap : false
+[03:01:00 - 24/09/2026] (D)    - pll_bw : 0.002
+[03:01:00 - 24/09/2026] (D)    - rrc_alpha : 0.5
+[03:01:00 - 24/09/2026] (D)    - rs_usecheck : true
+[03:01:00 - 24/09/2026] (D)    - samplerate : 2000000
+[03:01:00 - 24/09/2026] (D)    - satellite_number : "M2-4"
+[03:01:00 - 24/09/2026] (D)    - symbolrate : 72000.0
+[03:01:00 - 24/09/2026] (D) Parameters :
+[03:01:00 - 24/09/2026] (D)    - baseband_format : "cs16"
+[03:01:00 - 24/09/2026] (D)    - cadu_size : 8192
+[03:01:00 - 24/09/2026] (D)    - constellation : "oqpsk"
+[03:01:00 - 24/09/2026] (D)    - dc_block : true
+[03:01:00 - 24/09/2026] (D)    - derandomize : true
+[03:01:00 - 24/09/2026] (D)    - fill_missing : false
+[03:01:00 - 24/09/2026] (D)    - freq_shift : -400000
+[03:01:00 - 24/09/2026] (D)    - iq_swap : false
+[03:01:00 - 24/09/2026] (D)    - nrzm : true
+[03:01:00 - 24/09/2026] (D)    - rs_dualbasis : false
+[03:01:00 - 24/09/2026] (D)    - rs_i : 4
+[03:01:00 - 24/09/2026] (D)    - rs_type : "rs223"
+[03:01:00 - 24/09/2026] (D)    - rs_usecheck : true
+[03:01:00 - 24/09/2026] (D)    - samplerate : 2000000
+[03:01:00 - 24/09/2026] (D)    - satellite_number : "M2-4"
+[03:01:00 - 24/09/2026] (D)    - viterbi_ber_thresold : 0.3
+[03:01:00 - 24/09/2026] (D)    - viterbi_outsync_after : 20
+[03:01:00 - 24/09/2026] (T) Volk has the neonspiral kernel, using it!
+[03:01:00 - 24/09/2026] (T) Volk has the neonspiral kernel, using it!
+[03:01:00 - 24/09/2026] (I) Both 2 first modules can be run at once!
+[03:01:00 - 24/09/2026] (D) Input SPS : 27.777779
+[03:01:00 - 24/09/2026] (D) Resample : 1
+[03:01:00 - 24/09/2026] (D) Samplerate : 168000.000000
+[03:01:00 - 24/09/2026] (D) Dec factor : 11.904762
+[03:01:00 - 24/09/2026] (D) Final SPS : 2.333333
+[03:01:00 - 24/09/2026] (T) FFT Rate 1400, Samplerate 168000, Final Size 1400, Skip 0
+[03:01:00 - 24/09/2026] (I) Constellation : oqpsk
+[03:01:00 - 24/09/2026] (I) Using input baseband /path/to/SatDump/2026-09-23_22-41-11_2000000SPS_137500000Hz.cs16
+[03:01:00 - 24/09/2026] (I) Demodulating to /path/to/SatDump/OUT/meteor_m2-x_lrpt.soft
+[03:01:00 - 24/09/2026] (I) Buffer size : 120000
+[03:01:00 - 24/09/2026] (I) Using input symbols /path/to/SatDump/2026-09-23_22-41-11_2000000SPS_137500000Hz.cs16
+[03:01:00 - 24/09/2026] (I) Decoding to /path/to/SatDump/OUT/meteor_m2-x_lrpt.cadu
+[03:01:00 - 24/09/2026] (I) Progress 0.000000%, SNR : 0.000000dB, Peak SNR: 0.000000dB
+[03:01:00 - 24/09/2026] (I) Progress nan%, Viterbi : NOSYNC BER : 0.500488, Deframer : NOSYNC
+[03:01:10 - 24/09/2026] (I) Progress 61.500000%, SNR : 13.456419dB, Peak SNR: 14.081358dB
+[03:01:10 - 24/09/2026] (I) Progress nan%, Viterbi : SYNCED BER : 0.007324, Deframer : SYNCED
+[03:01:15 - 24/09/2026] (I) Demodulation finished
+[03:01:15 - 24/09/2026] (I) Data is already at level cadu, skipping
+[03:01:15 - 24/09/2026] (I) Processing data to level products
+[03:01:15 - 24/09/2026] (D) Parameters :
+[03:01:15 - 24/09/2026] (D)    - baseband_format : "cs16"
+[03:01:15 - 24/09/2026] (D)    - dc_block : true
+[03:01:15 - 24/09/2026] (D)    - fill_missing : false
+[03:01:15 - 24/09/2026] (D)    - freq_shift : -400000
+[03:01:15 - 24/09/2026] (D)    - iq_swap : false
+[03:01:15 - 24/09/2026] (D)    - m2x_mode : true
+[03:01:15 - 24/09/2026] (D)    - max_fill_lines : 50
+[03:01:15 - 24/09/2026] (D)    - rs_usecheck : true
+[03:01:15 - 24/09/2026] (D)    - samplerate : 2000000
+[03:01:15 - 24/09/2026] (D)    - satellite_number : "M2-4"
+[03:01:15 - 24/09/2026] (I) Using input frames /path/to/SatDump/OUT/meteor_m2-x_lrpt.cadu
+[03:01:15 - 24/09/2026] (I) Decoding to /path/to/SatDump/OUT/MSU-MR
+[03:01:15 - 24/09/2026] (I) Demultiplexing and deframing...
+[03:01:15 - 24/09/2026] (I) Writing images.... (Can take a while)
+[03:01:15 - 24/09/2026] (T) MSU-MR ID 4
+[03:01:15 - 24/09/2026] (I) ----------- Satellite
+[03:01:15 - 24/09/2026] (I) NORAD : 59051
+[03:01:15 - 24/09/2026] (I) Name  : METEOR-M2-4
+[03:01:16 - 24/09/2026] (I) MSU-MR Channel 1 Lines  : 3216
+[03:01:16 - 24/09/2026] (I) MSU-MR Channel 2 Lines  : 3224
+[03:01:16 - 24/09/2026] (I) MSU-MR Channel 3 Lines  : 0
+[03:01:16 - 24/09/2026] (I) MSU-MR Channel 4 Lines  : 3224
+[03:01:16 - 24/09/2026] (I) MSU-MR Channel 5 Lines  : 0
+[03:01:16 - 24/09/2026] (I) MSU-MR Channel 6 Lines  : 0
+[03:01:16 - 24/09/2026] (W) Analog telemetry missing from transmission. Calibration is disabled!
+[03:01:16 - 24/09/2026] (I) Saving /path/to/SatDump/OUT/MSU-MR/MSU-MR-2.png...
+[03:01:16 - 24/09/2026] (I) Saving /path/to/SatDump/OUT/MSU-MR/MSU-MR-4.png...
+[03:01:16 - 24/09/2026] (I) Saving /path/to/SatDump/OUT/MSU-MR/MSU-MR-1.png...
+[03:01:16 - 24/09/2026] (D) Products processing is enabled! Starting processing module.
+[03:01:16 - 24/09/2026] (I) /path/to/SatDump/OUT/MSU-MR
+[03:01:16 - 24/09/2026] (I) /path/to/SatDump/OUT/MSU-MR/product.cbor
+[03:01:16 - 24/09/2026] (I) /path/to/SatDump/OUT/MSU-MR/product.cbor
+[03:01:16 - 24/09/2026] (I) Loading MSU-MR-1.png
+[03:01:16 - 24/09/2026] (I) Loading MSU-MR-2.png
+[03:01:16 - 24/09/2026] (I) Loading MSU-MR-4.png
+[03:01:16 - 24/09/2026] (D) Composite needs channel ch1
+[03:01:16 - 24/09/2026] (D) Composite needs channel ch2
+[03:01:16 - 24/09/2026] (T) Max Total Width 1568

@@ -1,0 +1,129 @@
+:root{--paper:#faf9f5;--ink:#252722;--muted:#646760;--line:#d5d3cb;--link:#315b5b;--width:820px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.7 Georgia,"Times New Roman",serif}
+img,video{display:block;max-width:100%}
+figure{margin:0}
+p{margin:0 0 1.2em}
+a{color:var(--link);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:#8f4d37}
+.frame,.lead{width:min(calc(100% - 48px),var(--width));margin-inline:auto}
+.mast{border-bottom:1px solid var(--line);font:13px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.mast .frame{min-height:54px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.mark{color:var(--ink);font-weight:650;text-decoration:none}
+.edition{color:var(--muted);text-align:right}
+.lead{width:min(calc(100% - 48px),1100px);position:relative;isolation:isolate;display:flex;align-items:center;min-height:560px;padding:64px 32px;overflow:hidden}
+.lead-copy{min-width:0;max-width:650px}
+.lead h1{font-size:clamp(2.4rem,5vw,4.3rem)}
+.lead .deck{margin-bottom:0}
+.kicker{font:14px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--muted);margin-bottom:20px}
+h1,h2,h3{font-family:Georgia,"Times New Roman",serif;font-weight:400;letter-spacing:-.025em}
+h1{font-size:clamp(2.9rem,6vw,4.3rem);line-height:1.08;max-width:760px;margin:0 0 22px}
+.deck{font-size:1.28rem;line-height:1.5;max-width:670px;margin-bottom:35px}
+
+figcaption{font:13px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--muted);padding-top:8px}
+.facts{display:flex;flex-wrap:wrap;gap:5px 18px;border-bottom:1px solid var(--line);padding:18px 0 27px;margin-bottom:30px;font:13px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--muted)}
+.facts span+span:before{content:"·";padding-right:18px}
+section.frame{padding:48px 0 56px;border-bottom:1px solid var(--line)}
+.section-head{margin-bottom:24px}
+.section-head .index{display:none}
+h2{font-size:clamp(2rem,4vw,2.8rem);line-height:1.17;margin:0}
+h3{font-size:1.35rem;line-height:1.3;margin:0 0 10px}
+.measure,.satellite-copy{max-width:720px}
+.measure p,.satellite-copy p{font-size:1.06rem}
+.satellite-intro{display:block}
+.satellite-copy .satellite-source,.sources{font:13px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--muted)}
+.satellite-photo{max-width:720px;margin:28px 0 5px}
+.satellite-photo img{width:100%;height:auto}
+.setup-notes{max-width:720px;margin:34px 0 24px}
+.setup-notes p{color:var(--muted)}
+.setup-figures{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 24px}
+.setup-figures figure{min-width:0}
+.setup-figures img{width:100%;height:auto}
+.setup-figures figcaption strong{color:var(--ink)}
+.wide-figure{margin:29px 0}
+.wide-figure img{width:100%;height:auto}
+.protocol-flow{overflow-x:auto}
+.protocol-flow img{min-width:780px}
+.protocol-sources{margin-top:13px}
+.method{max-width:720px;padding:20px 0;border-top:1px solid var(--line)}
+.method:last-child{border-bottom:1px solid var(--line)}
+.method h3{font-size:1.4rem}
+.method p{font-size:1.03rem}
+pre{overflow-x:auto;background:#f0efe9;border-left:2px solid #979e99;padding:14px 17px;margin:17px 0;font:13px/1.6 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.9em}
+pre code{font-size:inherit}
+.bands{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:26px 0}
+.bands figure,.composites figure{min-width:0}
+.bands img{width:100%;height:auto}
+.bands figcaption strong{display:block;color:var(--ink)}
+.composites{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin-top:28px}
+.composites img{width:100%;height:auto}
+.films video{width:100%;aspect-ratio:16/9;background:#111}
+.archive table{border-collapse:collapse;width:100%;margin:18px 0 30px}
+.archive th,.archive td{text-align:left;vertical-align:top;border-top:1px solid var(--line);padding:10px 8px 10px 0;overflow-wrap:anywhere;font-size:.92rem}
+.archive th{width:165px;color:var(--muted);font:600 12px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+@media(max-width:640px){body{font-size:16px}.frame,.lead{width:min(calc(100% - 30px),var(--width))}.mast .frame{min-height:49px}.edition{font-size:11px}.lead{padding-top:48px}.deck{font-size:1.13rem}.facts{gap:5px 13px}.facts span+span:before{padding-right:13px}section.frame{padding:40px 0 46px}.setup-figures,.bands,.composites{grid-template-columns:1fr}.archive th{width:105px}}
+
+.terms,.estimate{max-width:720px;border-left:2px solid #888b80;padding:4px 0 4px 18px;margin:25px 0;color:#41443e}.terms h3,.estimate h3{font-size:1.14rem;margin-bottom:6px}.terms p,.estimate p{font-size:.95rem;margin:0}.radiance-figure{max-width:500px;margin:25px 0}.radiance-figure img{width:100%;height:auto}.archive caption{text-align:left;font:600 13px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--muted);padding-bottom:10px}.lessons{border-bottom:1px solid var(--line)}
+
+.footprint{max-width:610px}.comparison{font:13px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--muted);padding:28px 0 50px}
+
+/* Keep the short observation strip on one line on desktop. */
+@media(min-width:960px){.facts{width:min(calc(100% - 48px),1200px);flex-wrap:nowrap;white-space:nowrap;gap:6px;justify-content:space-between;font-size:12px}.facts span+span:before{padding-right:8px}}
+.terms ul{margin:0;padding-left:1.2em;font-size:.95rem}.terms li+li{margin-top:.22em}.map-north-up{transform:rotate(180deg);filter:brightness(1.22) contrast(1.04) saturate(1.08)}
+
+.settings-table{width:100%;border-collapse:collapse;margin:2px 0 18px}.settings-table caption{text-align:left;font:600 12px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--muted);padding-bottom:7px}.settings-table th,.settings-table td{border-top:1px solid var(--line);text-align:left;vertical-align:top;padding:8px 10px 8px 0;font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.settings-table th{width:38%;font-weight:600;color:#4e534d}.settings-table td{overflow-wrap:anywhere}.settings-table+ p{margin-top:8px}@media(max-width:640px){.settings-table th,.settings-table td{font-size:13px}.settings-table th{width:42%}}
+
+.results-table{width:100%;max-width:720px;border-collapse:collapse;margin:0 0 24px}.results-table caption{text-align:left;font:600 12px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--muted);padding-bottom:7px}.results-table th,.results-table td{border-top:1px solid var(--line);text-align:left;vertical-align:top;padding:9px 10px 9px 0;font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.results-table th{width:31%;font-weight:600;color:#4e534d}.results-table td{overflow-wrap:anywhere}@media(max-width:640px){.results-table th,.results-table td{font-size:13px}.results-table th{width:38%}}
+
+/* Full swaths stay intact at every viewport width. */
+
+.setup-photo{max-width:720px;margin:28px 0}
+.setup-photo img{width:100%;height:auto}
+.chart-scroll{max-width:100%;overflow-x:auto;overscroll-behavior-x:contain}
+.chart-scroll img{width:100%;min-width:720px;max-width:none;height:auto}
+.evidence-links p{overflow-wrap:anywhere;font-size:.95rem}
+.skip-link{position:absolute;left:16px;top:-100px;background:var(--paper);padding:8px 12px;z-index:2}
+.skip-link:focus{top:8px}
+a:focus-visible,.chart-scroll:focus-visible{outline:3px solid var(--link);outline-offset:4px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media(max-width:640px){.setup-figures{gap:32px}}
+
+.nowrap{white-space:nowrap}
+@media(max-width:640px){h1{font-size:2.4rem}}
+
+
+
+/* Enlarged decorative detail; the scientific gallery retains the full swaths. */
+.lead::before,.lead::after{content:"";position:absolute;inset:0;pointer-events:none;z-index:-1}
+.lead::before{left:28%;background:url("media/false-color-421-preview.jpg") center 46% / cover no-repeat}
+.lead::after{background:linear-gradient(90deg,var(--paper) 0%,rgba(250,249,245,.98) 34%,rgba(250,249,245,.88) 52%,rgba(250,249,245,.28) 75%,rgba(250,249,245,.04) 100%),linear-gradient(180deg,var(--paper),transparent 15%,transparent 84%,var(--paper))}
+@media(max-width:759px){.lead{min-height:500px;padding:48px 0}.lead-copy{max-width:100%}.lead h1{font-size:2.4rem}.lead::before{left:0;background-position:center 46%}.lead::after{background:linear-gradient(90deg,rgba(250,249,245,.98),rgba(250,249,245,.83)),linear-gradient(180deg,var(--paper),transparent 20%,transparent 80%,var(--paper))}}
+
+/* Layered reading layout and expandable technical notes. */
+.technical{margin:24px 0;border:1px solid var(--line);border-radius:5px;background:#f4f3ed}
+.technical summary{padding:16px 20px;cursor:pointer;font:600 15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--link)}
+.technical summary:hover{background:#ebece5}
+.technical summary:focus-visible{outline:3px solid var(--link);outline-offset:3px}
+.technical[open] summary{border-bottom:1px solid var(--line)}
+.technical-body{padding:20px;min-width:0}
+.technical-body p,.technical-body li{font-size:1rem}
+.technical-body> :last-child{margin-bottom:0}
+.technical .method{max-width:none}
+.technical .chart-scroll{width:100%}
+.report .measure h3{margin-top:32px}
+.steps{padding-left:1.25em}
+.steps li{padding-left:6px;margin-bottom:12px}
+.report .facts{width:min(calc(100% - 48px),820px);flex-wrap:wrap;justify-content:flex-start;gap:6px 24px;font-size:13px;white-space:normal}
+@media(max-width:640px){.technical summary{padding:14px}.technical-body{padding:14px}.report .facts{width:calc(100% - 30px)}.report .mast .frame{flex-wrap:wrap;padding-block:12px}}
+@media print{.technical{break-inside:avoid}.technical::details-content{content-visibility:visible}}
+
+.report .orbit-example{max-width:none;margin:24px 0;display:grid;grid-template-columns:minmax(0,360px) minmax(0,1fr);gap:28px;align-items:center}
+.report .orbit-example figcaption{padding-top:0;font-size:14px;line-height:1.65}
+@media(max-width:640px){.report .orbit-example{grid-template-columns:1fr;gap:16px}.report .orbit-example>a{width:100%;max-width:360px;margin-inline:auto}}
+.m24 .films video{aspect-ratio:16/9;object-fit:contain}
+
+.report .day-passes{max-width:900px;margin:29px auto}
+.report .day-passes>a{display:block}
+.report .day-passes img{display:block;width:100%;min-width:0;max-width:100%;height:auto}

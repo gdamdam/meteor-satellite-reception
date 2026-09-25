@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Meteor M2-3 weather-satellite reception on 24 September 2026: a short Pacific-coast pass, decoded images, radio signal, and an obstacle that ended the recording.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://gdamdam.github.io/meteor-satellite-reception/meteor-m2-3-2026-09-24.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Meteor M2-3: A Short Pass">
+<meta property="og:description" content="Another weather-satellite pass, a clear view of the Pacific coast.">
+<meta property="og:image" content="https://gdamdam.github.io/meteor-satellite-reception/media/m2-3/false-color-124.png">
+<meta property="article:published_time" content="2026-09-24">
+<title>Meteor M2-3: A Short Pass | Satellite reception, 24 September 2026</title>
+<link rel="stylesheet" href="revised.css">
+<link rel="stylesheet" href="site.css">
+<link rel="stylesheet" href="meteor-m2-3.css">
+</head>
+<body class="report m23">
+<a class="skip-link" href="#content">Skip to report</a>
+<header class="mast"><nav class="frame site-nav" aria-label="Observations"><a class="mark" href="index.html">Meteor satellite reception</a><span class="edition"><a href="meteor-m2-4-2026-09-23.html">Read the M2-4 report →</a></span></nav></header>
+<main id="content"><article>
+<section class="lead" id="top"><div class="lead-copy"><p class="kicker"><time datetime="2026-09-24">24 September 2026</time> · San Francisco Bay Area</p><h1><span class="nowrap">Meteor M2-3:</span><br>A Short Pass</h1><p class="deck">Another weather-satellite pass, a clear view of the Pacific coast.</p></div></section>
+<div class="facts frame"><span>9 min 24 sec recorded</span><span>137.9 MHz LRPT</span><span>Three image channels</span></div>
+
+<section class="frame" id="observation"><div class="section-head"><h2>The observation</h2></div><div class="measure"><p>The day after my <a href="meteor-m2-4-2026-09-23.html">first Meteor M2-4 reception</a>, I received Meteor M2-3, another weather satellite in the same family. Its scanner sent image data as it passed over the Pacific coast.</p><p>I started recording at 11:02:58 a.m. Pacific daylight time. After about nine minutes, an obstacle blocked the satellite. I stopped the recording because the signal was no longer useful. The file therefore ends before the satellite necessarily went below the horizon.</p><p>The image shows the coast and broad cloud fields. Its colors help separate features, but they are <strong>false color</strong>, not a photograph of what the eye would see.</p></div><figure class="wide-figure m23-feature"><a href="media/m2-3/false-color-124.png"><img src="media/m2-3/false-color-124.png" alt="Meteor M2-3 false-color swath showing the Pacific Ocean, western North America and broad cloud bands" width="1568" height="2632" decoding="async"></a><figcaption>SatDump’s 1-2-4 false-color composite in its saved orientation. The dark bands are missing portions of the received image. <a href="media/m2-3/false-color-124.png">Open the full image.</a></figcaption></figure></section>
+
+<section class="frame" id="setup"><div class="section-head"><h2>The setup, briefly</h2></div><div class="measure"><p>I used a V-shaped dipole on a camera tripod, an SDRplay RSPdx-R2 and a laptop. The SDR recorded the radio signal; SatDump assembled the decoded channels into images. The antenna and workflow are described in the <a href="meteor-m2-4-2026-09-23.html#story">first observation</a>.</p></div><table class="settings-table"><tbody><tr><th scope="row">Recording</th><td>CS16 I/Q, 2 million complex samples/s; about 9 minutes 24 seconds</td></tr><tr><th scope="row">Tuning</th><td>137.500 MHz recording center; M2-3 signal at 137.900 MHz</td></tr><tr><th scope="row">Recovered images</th><td>MSU-MR channels 1, 2 and 4, plus a false-color composite</td></tr></tbody></table><p class="sources">For antenna dimensions, software steps and explanations of LRPT, see <a href="meteor-m2-4-2026-09-23.html">Meteor M2-4: From Signal to Image</a>.</p></section>
+
+<section class="frame" id="signal"><div class="section-head"><h2>Watch the radio signal</h2></div><div class="measure"><p>The one-minute video compresses the recording. The broad bright band around 137.9 MHz is the satellite signal. Its spectrum and waterfall are from the radio recording; the sky track and elevation are predictions for a representative San Francisco point.</p></div><div class="films"><figure><video controls playsinline preload="none" poster="media/m2-3/waterfall-track-public-poster.png"><source src="media/m2-3/waterfall-track-public.mp4" type="video/mp4">Video unavailable.</video><figcaption>The recorded spectrum and waterfall appear beside a predicted sky track and elevation chart for a representative San Francisco point, not the receiving site. <a href="media/m2-3/waterfall-track-public.mp4">Download the MP4.</a></figcaption></figure></div></section>
+
+<section class="frame" id="channels"><div class="section-head"><h2>Three image channels</h2></div><div class="measure"><p>Channel 1 is visible light, channel 2 is near infrared, and channel 4 is shortwave infrared around 3.9 µm. The same coastline and clouds appear differently in each. These saved grayscale images are uncalibrated; brightness is not a temperature reading.</p></div><div class="bands"><figure><a href="media/m2-3/channel-1.png"><img src="media/m2-3/channel-1.png" width="1568" height="2632" loading="lazy" decoding="async" alt="M2-3 channel 1 visible-light image"></a><figcaption><strong>Channel 1 · visible</strong><a href="media/m2-3/channel-1.png">Full PNG</a></figcaption></figure><figure><a href="media/m2-3/channel-2.png"><img src="media/m2-3/channel-2.png" width="1568" height="2640" loading="lazy" decoding="async" alt="M2-3 channel 2 near-infrared image"></a><figcaption><strong>Channel 2 · near infrared</strong><a href="media/m2-3/channel-2.png">Full PNG</a></figcaption></figure><figure><a href="media/m2-3/channel-4.png"><img src="media/m2-3/channel-4.png" width="1568" height="2640" loading="lazy" decoding="async" alt="M2-3 channel 4 shortwave-infrared image"></a><figcaption><strong>Channel 4 · 3.9 µm infrared</strong><a href="media/m2-3/channel-4.png">Full PNG</a></figcaption></figure></div><p class="sources">Source record: <a href="evidence/m2-3/README.md">M2-3 evidence guide</a> · <a href="https://space.oscar.wmo.int/satellites/view/meteor_m_n2_3" target="_blank" rel="noopener noreferrer">WMO satellite entry</a>.</p></section>
+</article></main>
+<script>
+(() => {
+  if (new URLSearchParams(location.search).getAll('cnt').includes('0')) return;
+  const tracker = document.createElement('script');
+  tracker.dataset.goatcounter = 'https://meteorm24.goatcounter.com/count';
+  tracker.async = true;
+  tracker.src = 'https://gc.zgo.at/count.js';
+  document.head.appendChild(tracker);
+})();
+</script>
+</body></html>

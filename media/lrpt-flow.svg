@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 365" role="img" aria-labelledby="title desc">
+  <title id="title">How a Meteor image reaches the receiver</title>
+  <desc id="desc">The MSU-MR scanner sweeps Earth, image strips and telemetry are packed into frames, LRPT sends them on 137.9 megahertz, the RSPdx receiver saves complex I and Q samples, and SatDump rebuilds image channels.</desc>
+  <rect width="1200" height="365" fill="#fffdf8"/>
+  <path d="M36 58H1164M36 300H1164" stroke="#b9c3bf" stroke-width="1"/>
+  <g font-family="Georgia,serif" fill="#222c2a">
+    <text x="42" y="36" font-size="24">From the ground below to the image on screen</text>
+  </g>
+  <g font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700" letter-spacing="1.4" fill="#a64a35">
+    <text x="42" y="86">01  SCAN</text><text x="275" y="86">02  PACKETS</text><text x="508" y="86">03  DOWNLINK</text><text x="741" y="86">04  RECORDING</text><text x="974" y="86">05  REBUILD</text>
+  </g>
+  <g stroke="#b9c3bf" stroke-width="1"><path d="M259 76V282M492 76V282M725 76V282M958 76V282"/></g>
+  <g fill="none" stroke="#366e6c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M69 191Q150 217 222 189"/>
+    <path d="M78 203Q150 229 213 202" stroke-width="1.5"/>
+    <path d="M138 111V137M125 137H151M130 143H146"/>
+    <path d="M126 149L79 190M150 149L219 188" stroke-width="1.5" stroke-dasharray="5 5"/>
+    <path d="M540 175C549 147 558 147 568 175S586 203 596 175S615 147 625 175S644 203 654 175S673 147 683 175"/>
+    <path d="M779 174H814L825 160L837 188L850 148L863 202L876 162L889 178H917"/>
+    <path d="M1001 134H1093V205H1001Z" stroke-width="2"/>
+  </g>
+  <g fill="#a64a35"><circle cx="139" cy="148" r="5"/><circle cx="587" cy="175" r="4"/><circle cx="637" cy="175" r="4"/></g>
+  <g stroke="#366e6c" stroke-width="1.5" fill="none"><path d="M1008 151H1086M1008 161H1070M1008 171H1080M1008 181H1063M1008 191H1086"/></g>
+  <g fill="#366e6c"><rect x="304" y="135" width="144" height="20" rx="2" opacity=".14"/><rect x="304" y="163" width="112" height="20" rx="2" opacity=".14"/><rect x="304" y="191" width="130" height="20" rx="2" opacity=".14"/></g>
+  <g font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#366e6c"><text x="312" y="149">IMAGE STRIP</text><text x="312" y="177">IMAGE STRIP</text><text x="312" y="205">TELEMETRY</text></g>
+  <g stroke="#a64a35" stroke-width="1.5" fill="none"><path d="M235 171h15m-6-6 6 6-6 6M468 171h15m-6-6 6 6-6 6M701 171h15m-6-6 6 6-6 6M934 171h15m-6-6 6 6-6 6"/></g>
+  <g font-family="Georgia,serif" font-size="17" fill="#222c2a" text-anchor="middle">
+    <text x="146" y="252">MSU-MR sweeps Earth</text>
+    <text x="375" y="252">Strips and instrument data</text>
+    <text x="609" y="252">137.900 MHz LRPT</text>
+    <text x="841" y="252">RSPdx saves I/Q</text>
+    <text x="1074" y="252">SatDump builds bands</text>
+  </g>
+  <g font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#596664" text-anchor="middle">
+    <text x="146" y="274">one narrow view per sweep</text>
+    <text x="375" y="274">in digital frames</text>
+    <text x="609" y="274">OQPSK, 72k symbols/s</text>
+    <text x="841" y="274">2 million samples/s here</text>
+    <text x="1074" y="274">channels 1, 2 and 4</text>
+  </g>
+  <text x="42" y="335" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#596664">This drawing follows the recorded pass. It is a simplified data path, not a scale drawing of the spacecraft.</text>
+</svg>
