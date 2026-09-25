@@ -127,3 +127,9 @@ a:focus-visible,.chart-scroll:focus-visible{outline:3px solid var(--link);outlin
 .report .day-passes{max-width:900px;margin:29px auto}
 .report .day-passes>a{display:block}
 .report .day-passes img{display:block;width:100%;min-width:0;max-width:100%;height:auto}
+
+.story-photos{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(0,1fr);gap:22px;margin:28px 0;align-items:start}
+.story-photos figure{min-width:0;margin:0}
+.story-photos img{display:block;width:100%;height:360px;object-fit:cover}
+.story-photos figure:last-child img{object-position:center 36%}
+@media(max-width:640px){.story-photos{grid-template-columns:1fr;max-width:460px}.story-photos img{height:auto}.story-photos figure:last-child{max-width:330px}}

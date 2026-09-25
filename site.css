@@ -1,5 +1,6 @@
 .landing-intro{padding:76px 0 54px;max-width:740px}
 .landing-intro h1{font-size:clamp(2.35rem,5.4vw,4.1rem);max-width:none}
+.landing-intro .h1-place{display:block;margin-top:.28em;font-size:.52em;line-height:1.2}
 .landing-intro .deck{margin-bottom:18px}
 .landing-intro>p:last-child{max-width:670px;color:#555a53}
 .observation-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;padding:16px 0 75px}
