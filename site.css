@@ -7,7 +7,7 @@
 .observation-card>a{display:block;height:100%;color:inherit;text-decoration:none}
 .observation-card>a:hover .card-link,.observation-card>a:focus-visible .card-link{text-decoration:underline}
 .observation-card img{display:block;width:100%;height:330px;object-fit:cover;object-position:center 28%;background:#e8e9e3}
-.observation-card:nth-child(2) img{object-position:center 33%}
+.observation-card:nth-child(2) img{object-position:center 33%;filter:saturate(.34)}
 .card-copy{padding:18px 19px 24px}
 .card-date{margin-bottom:10px;font:12px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--muted)}
 .card-copy h2{font-size:1.6rem;margin-bottom:12px}
